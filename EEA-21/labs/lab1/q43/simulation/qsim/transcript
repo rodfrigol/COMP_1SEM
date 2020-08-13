@@ -1,0 +1,35 @@
+# do q43.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Block1
+# 
+# Top level modules:
+# 	Block1
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Block1_vlg_sample_tst
+# -- Compiling module Block1_vlg_check_tst
+# -- Compiling module Block1_vlg_vec_tst
+# 
+# Top level modules:
+# 	Block1_vlg_vec_tst
+# vsim -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.Block1_vlg_vec_tst 
+# Loading work.Block1_vlg_vec_tst
+# Loading work.Block1
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading work.Block1_vlg_sample_tst
+# Loading work.Block1_vlg_check_tst
+# ERROR! Vector Mismatch for output port F :: @time = 10000000.000 ps
+#      Expected value = 1
+#      Real value = 0
+# ERROR! Vector Mismatch for output port F :: @time = 15000000.000 ps
+#      Expected value = 0
+#      Real value = 1
+# ERROR! Vector Mismatch for output port F :: @time = 50000000.000 ps
+#      Expected value = 1
+#      Real value = 0
+#           3 mismatched vectors : Simulation failed !
+# ** Note: $finish    : q43.vt(156)
+#    Time: 80 us  Iteration: 0  Instance: /Block1_vlg_vec_tst/tb_out

@@ -1,0 +1,105 @@
+|q52
+Q1 <= JKFF2:inst.Q
+R => 21mux:inst100.S
+R => 21mux:inst130.S
+R => 21mux:inst15.S
+R => 21mux:inst140.S
+dser => 21mux:inst100.B
+dser => 21mux:inst140.A
+d4 => ins18.IN0
+d4 => inst83.IN0
+Ep => inst84.IN1
+Ep => inst83.IN1
+Ep => inst81.IN1
+Ep => inst85.IN1
+Ep => inst82.IN1
+Ep => inst80.IN1
+Ep => inst79.IN1
+Ep => inst78.IN1
+CLK => JKFF2:inst1.CLK
+CLK => JKFF2:inst2.CLK
+CLK => JKFF2:inst3.CLK
+CLK => JKFF2:inst.CLK
+d3 => ins20.IN0
+d3 => inst85.IN0
+d2 => ins19.IN0
+d2 => inst80.IN0
+d1 => ins17.IN0
+d1 => inst78.IN0
+Q2 <= JKFF2:inst3.Q
+Q3 <= JKFF2:inst2.Q
+Q4 <= JKFF2:inst1.Q
+
+
+|q52|JKFF2:inst
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|q52|21mux:inst100
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|q52|JKFF2:inst3
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|q52|21mux:inst130
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|q52|JKFF2:inst2
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|q52|21mux:inst15
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|q52|JKFF2:inst1
+QN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+PRN => 2.PRESET
+CLRN => 2.ACLR
+K => 2.IN0
+J => 2.IN1
+CLK => 2.CLK
+Q <= 2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|q52|21mux:inst140
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+

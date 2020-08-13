@@ -1,0 +1,13 @@
+|q53
+Si <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+Ai => inst6.IN0
+Ai => inst4.IN0
+Ai => inst8.IN0
+Ai => inst8.IN1
+Eimenos1 => inst2.IN0
+Eimenos1 => inst.IN0
+Bi => inst.IN1
+Bi => inst1.IN1
+Ei <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+
+

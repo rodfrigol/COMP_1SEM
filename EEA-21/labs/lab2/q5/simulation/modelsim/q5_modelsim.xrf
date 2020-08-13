@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/rodri/Desktop/EEA-21/labs/lab2/q5/q5.bdf
+source_file = 1, C:/Users/rodri/Desktop/EEA-21/labs/lab2/q5/Waveform.vwf
+source_file = 1, C:/Users/rodri/Desktop/EEA-21/labs/lab2/q5/db/q5.cbx.xml
+design_name = q5
+instance = comp, \A~output , A~output, q5, 1
+instance = comp, \Y2~output , Y2~output, q5, 1
+instance = comp, \Y1~output , Y1~output, q5, 1
+instance = comp, \Y0~output , Y0~output, q5, 1
+instance = comp, \A1~input , A1~input, q5, 1
+instance = comp, \A2~input , A2~input, q5, 1
+instance = comp, \Y11~input , Y11~input, q5, 1
+instance = comp, \Y12~input , Y12~input, q5, 1
+instance = comp, \Y01~input , Y01~input, q5, 1
+instance = comp, \Y02~input , Y02~input, q5, 1

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/SubsetSumSolverAbstract.h
+vector
+-
+string
+-
+
+../src/SubsetSumSolver.h
+vector
+-
+string
+-
+SubsetSumSolverAbstract.h
+-
+
+/home/rodrigo/Desktop/CES12/lab4/labParadigm200609_1451/src/SSPSolverPD.cpp
+SubsetSumSolver.h
+-
+

@@ -1,0 +1,93 @@
+|q61
+F <= 81mux:inst13.Y
+S1 => 81mux:inst13.C
+S1 => 81mux:inst.C
+A => inst91.IN0
+A => inst7.IN1
+A => inst4.IN0
+A => inst5.IN1
+A => 81mux:inst.D6
+C0 => inst72.IN0
+C0 => inst93.IN0
+C0 => inst19.IN1
+C0 => inst20.IN1
+C0 => 81mux:inst.A
+B => inst7.IN0
+B => inst90.IN0
+B => inst5.IN0
+B => inst3.IN0
+M => 81mux:inst13.A
+M => 81mux:inst.GN
+S0 => 81mux:inst13.B
+S0 => 81mux:inst.B
+C <= 81mux:inst.Y
+
+
+|q61|81mux:inst13
+d0 => f81mux:sub.d0
+d1 => f81mux:sub.d1
+d2 => f81mux:sub.d2
+d3 => f81mux:sub.d3
+d4 => f81mux:sub.d4
+d5 => f81mux:sub.d5
+d6 => f81mux:sub.d6
+d7 => f81mux:sub.d7
+a => f81mux:sub.a
+b => f81mux:sub.b
+c => f81mux:sub.c
+gn => ~NO_FANOUT~
+wn <= f81mux:sub.wn
+y <= f81mux:sub.y
+
+
+|q61|81mux:inst13|f81mux:sub
+WN <= 85.DB_MAX_OUTPUT_PORT_TYPE
+D0 => 59.IN0
+A => 19.IN0
+D1 => 60.IN0
+B => 17.IN0
+D2 => 61.IN0
+D3 => 62.IN0
+C => 16.IN0
+D4 => 63.IN0
+D5 => 64.IN0
+D6 => 65.IN0
+D7 => 66.IN0
+GN => 13.IN0
+y <= 82.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|q61|81mux:inst
+d0 => ~NO_FANOUT~
+d1 => f81mux:sub.d1
+d2 => f81mux:sub.d2
+d3 => f81mux:sub.d3
+d4 => f81mux:sub.d4
+d5 => f81mux:sub.d5
+d6 => f81mux:sub.d6
+d7 => f81mux:sub.d7
+a => f81mux:sub.a
+b => f81mux:sub.b
+c => f81mux:sub.c
+gn => f81mux:sub.gn
+wn <= f81mux:sub.wn
+y <= f81mux:sub.y
+
+
+|q61|81mux:inst|f81mux:sub
+WN <= 85.DB_MAX_OUTPUT_PORT_TYPE
+D0 => 59.IN0
+A => 19.IN0
+D1 => 60.IN0
+B => 17.IN0
+D2 => 61.IN0
+D3 => 62.IN0
+C => 16.IN0
+D4 => 63.IN0
+D5 => 64.IN0
+D6 => 65.IN0
+D7 => 66.IN0
+GN => 13.IN0
+y <= 82.DB_MAX_OUTPUT_PORT_TYPE
+
+

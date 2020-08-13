@@ -1,0 +1,9 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/rodri/Desktop/EEA-21/labs/lab3/q51/q51.bdf
+source_file = 1, C:/Users/rodri/Desktop/EEA-21/labs/lab3/q51/Waveform.vwf
+source_file = 1, C:/Users/rodri/Desktop/EEA-21/labs/lab3/q51/db/q51.cbx.xml
+design_name = q51
+instance = comp, \F~output , F~output, q51, 1
+instance = comp, \A~input , A~input, q51, 1
+instance = comp, \B~input , B~input, q51, 1
+instance = comp, \inst3~0 , inst3~0, q51, 1

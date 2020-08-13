@@ -1,0 +1,5 @@
+if(EXISTS "/home/rodrigo/Desktop/CES12/lab5/labTSP200717_1428/build/labTsptests[1]_tests.cmake")
+  include("/home/rodrigo/Desktop/CES12/lab5/labTSP200717_1428/build/labTsptests[1]_tests.cmake")
+else()
+  add_test(labTsptests_NOT_BUILT labTsptests_NOT_BUILT)
+endif()

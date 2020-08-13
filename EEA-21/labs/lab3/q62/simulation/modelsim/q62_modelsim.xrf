@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/rodri/Desktop/EEA-21/labs/lab3/q62/q62.bdf
+source_file = 1, C:/Users/rodri/Desktop/EEA-21/labs/lab3/q62/Waveform.vwf
+source_file = 1, C:/Users/rodri/Desktop/EEA-21/labs/lab3/q62/db/q62.cbx.xml
+design_name = q62
+instance = comp, \C0~output , C0~output, q62, 1
+instance = comp, \M1~output , M1~output, q62, 1
+instance = comp, \M2~output , M2~output, q62, 1
+instance = comp, \M3~output , M3~output, q62, 1
+instance = comp, \A0~input , A0~input, q62, 1
+instance = comp, \B0~input , B0~input, q62, 1
+instance = comp, \inst~0 , inst~0, q62, 1
+instance = comp, \B1~input , B1~input, q62, 1
+instance = comp, \A1~input , A1~input, q62, 1
+instance = comp, \inst6~0 , inst6~0, q62, 1
+instance = comp, \inst8~0 , inst8~0, q62, 1

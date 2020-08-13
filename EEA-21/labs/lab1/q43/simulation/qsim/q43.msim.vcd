@@ -1,0 +1,170 @@
+$comment
+	File created using the following command:
+		vcd file q43.msim.vcd -direction
+$end
+$date
+	Wed Mar 11 01:36:43 2020
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module Block1_vlg_vec_tst $end
+$var reg 1 ! A $end
+$var reg 1 " B $end
+$var reg 1 # C $end
+$var reg 1 $ D $end
+$var wire 1 % F $end
+$var wire 1 & sampler $end
+$scope module i1 $end
+$var wire 1 ' gnd $end
+$var wire 1 ( vcc $end
+$var wire 1 ) unknown $end
+$var tri1 1 * devclrn $end
+$var tri1 1 + devpor $end
+$var tri1 1 , devoe $end
+$var wire 1 - F~output_o $end
+$var wire 1 . D~input_o $end
+$var wire 1 / B~input_o $end
+$var wire 1 0 C~input_o $end
+$var wire 1 1 A~input_o $end
+$var wire 1 2 inst|sub|81~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+x&
+0'
+1(
+x)
+1*
+1+
+1,
+0-
+0.
+0/
+00
+01
+12
+$end
+#5000000
+1$
+1.
+0&
+#10000000
+1#
+0$
+10
+0.
+1&
+02
+1-
+1%
+#15000000
+1$
+1.
+0&
+#20000000
+1"
+0#
+0$
+1/
+00
+0.
+1&
+12
+0-
+0%
+#25000000
+1$
+1.
+0&
+02
+1-
+1%
+#30000000
+1#
+0$
+10
+0.
+1&
+12
+0-
+0%
+#35000000
+1$
+1.
+0&
+02
+1-
+1%
+#40000000
+1!
+0"
+0#
+0$
+11
+0/
+00
+0.
+1&
+#45000000
+1$
+1.
+0&
+12
+0-
+0%
+#50000000
+1#
+0$
+10
+0.
+1&
+#55000000
+1$
+1.
+0&
+02
+1-
+1%
+#60000000
+1"
+0#
+0$
+1/
+00
+0.
+1&
+12
+0-
+0%
+#65000000
+1$
+1.
+0&
+02
+1-
+1%
+#70000000
+1#
+0$
+10
+0.
+1&
+12
+0-
+0%
+#75000000
+1$
+1.
+0&
+#80000000

@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\rodri\Desktop\EEA-21\labs\lab2\q4\simulation\qsim
+vq4
+Z1 I_4=[:MJ3bE<old;?43AAD1
+Z2 VX7Q@cb:>B7zKgPEE3aL@C3
+Z3 dC:\Users\rodri\Desktop\EEA-21\labs\lab2\q4\simulation\qsim
+Z4 w1591213682
+Z5 8q4.vo
+Z6 Fq4.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 G;zk<c>N02I0cFY==_Ah:2
+!s85 0
+Z10 !s108 1591213686.768000
+Z11 !s107 q4.vo|
+Z12 !s90 -work|work|q4.vo|
+!s101 -O0
+vq4_vlg_check_tst
+!i10b 1
+!s100 NzOTYB^2JlCJaL8ZaZo[g2
+IC2gPWoMFHZc>_UbW<@J_M2
+VMZ04ZPB8lNa@hMbXDlJ7_2
+R3
+Z13 w1591213681
+Z14 8q4.vt
+Z15 Fq4.vt
+L0 63
+R7
+r1
+!s85 0
+31
+Z16 !s108 1591213686.935000
+Z17 !s107 q4.vt|
+Z18 !s90 -work|work|q4.vt|
+!s101 -O0
+R8
+vq4_vlg_sample_tst
+!i10b 1
+!s100 1_BgAJ:23IJ4jNnVTUE;O1
+IPz=5iA0bVzE1PIQOX56OA2
+VmhKe@ZoVcVoKGZCC5DV0]1
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vq4_vlg_vec_tst
+!i10b 1
+!s100 VRY;R_MiZ5hR[14T36hFO3
+I@Jm9ENQ6V_d<?kkVzRUn50
+V;4Ggoog7cNUBOz_=dW[fa0
+R3
+R13
+R14
+R15
+L0 215
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8

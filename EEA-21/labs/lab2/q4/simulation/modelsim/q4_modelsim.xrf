@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/rodri/Desktop/EEA-21/labs/lab2/q4/q4.bdf
+source_file = 1, C:/Users/rodri/Desktop/EEA-21/labs/lab2/q4/Waveform.vwf
+source_file = 1, C:/Users/rodri/Desktop/EEA-21/labs/lab2/q4/db/q4.cbx.xml
+design_name = q4
+instance = comp, \A~output , A~output, q4, 1
+instance = comp, \Y0~output , Y0~output, q4, 1
+instance = comp, \Y1~output , Y1~output, q4, 1
+instance = comp, \X0~input , X0~input, q4, 1
+instance = comp, \X1~input , X1~input, q4, 1
+instance = comp, \X3~input , X3~input, q4, 1
+instance = comp, \X2~input , X2~input, q4, 1
+instance = comp, \inst~0 , inst~0, q4, 1
+instance = comp, \inst3~0 , inst3~0, q4, 1
+instance = comp, \inst~1 , inst~1, q4, 1

@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/rodri/Desktop/EEA-21/lab1/b3.bdf
+source_file = 1, C:/Users/rodri/Desktop/EEA-21/lab1/db/b3.cbx.xml
+design_name = b3
+instance = comp, \F~output , F~output, b3, 1
+instance = comp, \a~input , a~input, b3, 1
+instance = comp, \d~input , d~input, b3, 1
+instance = comp, \b~input , b~input, b3, 1
+instance = comp, \c~input , c~input, b3, 1
+instance = comp, \inst4~0 , inst4~0, b3, 1

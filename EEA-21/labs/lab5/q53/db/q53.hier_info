@@ -1,0 +1,333 @@
+|q53final
+F8 <= q53:inst.Fi
+M => q53:inst.M
+M => q53:inst2.M
+M => q53:inst3.M
+M => q53:inst4.M
+M => q53:inst5.M
+M => q53:inst6.M
+M => q53:inst7.M
+M => q53:inst8.M
+S1 => q53:inst.S1
+S1 => q53:inst2.S1
+S1 => q53:inst3.S1
+S1 => q53:inst4.S1
+S1 => q53:inst5.S1
+S1 => q53:inst6.S1
+S1 => q53:inst7.S1
+S1 => q53:inst8.S1
+S0 => q53:inst.S0
+S0 => q53:inst2.S0
+S0 => q53:inst3.S0
+S0 => q53:inst4.S0
+S0 => q53:inst5.S0
+S0 => q53:inst6.S0
+S0 => q53:inst7.S0
+S0 => q53:inst8.S0
+Cin => q53:inst8.Cin
+A1 => q53:inst8.Ai
+B1 => q53:inst8.Bi
+A2 => q53:inst7.Ai
+B2 => q53:inst7.Bi
+A3 => q53:inst6.Ai
+B3 => q53:inst6.Bi
+A4 => q53:inst5.Ai
+B4 => q53:inst5.Bi
+A5 => q53:inst4.Ai
+B5 => q53:inst4.Bi
+A6 => q53:inst3.Ai
+B6 => q53:inst3.Bi
+A7 => q53:inst2.Ai
+B7 => q53:inst2.Bi
+A8 => q53:inst.Ai
+B8 => q53:inst.Bi
+F1 <= q53:inst8.Fi
+F2 <= q53:inst7.Fi
+F3 <= q53:inst6.Fi
+F4 <= q53:inst5.Fi
+F5 <= q53:inst4.Fi
+F6 <= q53:inst3.Fi
+F7 <= q53:inst2.Fi
+Cout <= q53:inst.Cout
+
+
+|q53final|q53:inst
+Fi <= MUX41:inst.Q
+M => MUX41:inst.S0
+Ai => inst5.IN0
+S0 => inst5.IN1
+Bi => inst3.IN1
+Bi => inst11.IN1
+S1 => MUX41:inst.S1
+S1 => 21mux:inst60.S
+Cin => inst4.IN1
+Cin => inst2.IN1
+Cin => inst13.IN1
+Cin => inst12.IN1
+Cout <= 21mux:inst60.Y
+
+
+|q53final|q53:inst|MUX41:inst
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|q53final|q53:inst|21mux:inst60
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|q53final|q53:inst2
+Fi <= MUX41:inst.Q
+M => MUX41:inst.S0
+Ai => inst5.IN0
+S0 => inst5.IN1
+Bi => inst3.IN1
+Bi => inst11.IN1
+S1 => MUX41:inst.S1
+S1 => 21mux:inst60.S
+Cin => inst4.IN1
+Cin => inst2.IN1
+Cin => inst13.IN1
+Cin => inst12.IN1
+Cout <= 21mux:inst60.Y
+
+
+|q53final|q53:inst2|MUX41:inst
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|q53final|q53:inst2|21mux:inst60
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|q53final|q53:inst3
+Fi <= MUX41:inst.Q
+M => MUX41:inst.S0
+Ai => inst5.IN0
+S0 => inst5.IN1
+Bi => inst3.IN1
+Bi => inst11.IN1
+S1 => MUX41:inst.S1
+S1 => 21mux:inst60.S
+Cin => inst4.IN1
+Cin => inst2.IN1
+Cin => inst13.IN1
+Cin => inst12.IN1
+Cout <= 21mux:inst60.Y
+
+
+|q53final|q53:inst3|MUX41:inst
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|q53final|q53:inst3|21mux:inst60
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|q53final|q53:inst4
+Fi <= MUX41:inst.Q
+M => MUX41:inst.S0
+Ai => inst5.IN0
+S0 => inst5.IN1
+Bi => inst3.IN1
+Bi => inst11.IN1
+S1 => MUX41:inst.S1
+S1 => 21mux:inst60.S
+Cin => inst4.IN1
+Cin => inst2.IN1
+Cin => inst13.IN1
+Cin => inst12.IN1
+Cout <= 21mux:inst60.Y
+
+
+|q53final|q53:inst4|MUX41:inst
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|q53final|q53:inst4|21mux:inst60
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|q53final|q53:inst5
+Fi <= MUX41:inst.Q
+M => MUX41:inst.S0
+Ai => inst5.IN0
+S0 => inst5.IN1
+Bi => inst3.IN1
+Bi => inst11.IN1
+S1 => MUX41:inst.S1
+S1 => 21mux:inst60.S
+Cin => inst4.IN1
+Cin => inst2.IN1
+Cin => inst13.IN1
+Cin => inst12.IN1
+Cout <= 21mux:inst60.Y
+
+
+|q53final|q53:inst5|MUX41:inst
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|q53final|q53:inst5|21mux:inst60
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|q53final|q53:inst6
+Fi <= MUX41:inst.Q
+M => MUX41:inst.S0
+Ai => inst5.IN0
+S0 => inst5.IN1
+Bi => inst3.IN1
+Bi => inst11.IN1
+S1 => MUX41:inst.S1
+S1 => 21mux:inst60.S
+Cin => inst4.IN1
+Cin => inst2.IN1
+Cin => inst13.IN1
+Cin => inst12.IN1
+Cout <= 21mux:inst60.Y
+
+
+|q53final|q53:inst6|MUX41:inst
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|q53final|q53:inst6|21mux:inst60
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|q53final|q53:inst7
+Fi <= MUX41:inst.Q
+M => MUX41:inst.S0
+Ai => inst5.IN0
+S0 => inst5.IN1
+Bi => inst3.IN1
+Bi => inst11.IN1
+S1 => MUX41:inst.S1
+S1 => 21mux:inst60.S
+Cin => inst4.IN1
+Cin => inst2.IN1
+Cin => inst13.IN1
+Cin => inst12.IN1
+Cout <= 21mux:inst60.Y
+
+
+|q53final|q53:inst7|MUX41:inst
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|q53final|q53:inst7|21mux:inst60
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+
+|q53final|q53:inst8
+Fi <= MUX41:inst.Q
+M => MUX41:inst.S0
+Ai => inst5.IN0
+S0 => inst5.IN1
+Bi => inst3.IN1
+Bi => inst11.IN1
+S1 => MUX41:inst.S1
+S1 => 21mux:inst60.S
+Cin => inst4.IN1
+Cin => inst2.IN1
+Cin => inst13.IN1
+Cin => inst12.IN1
+Cout <= 21mux:inst60.Y
+
+
+|q53final|q53:inst8|MUX41:inst
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|q53final|q53:inst8|21mux:inst60
+Y <= 5.DB_MAX_OUTPUT_PORT_TYPE
+A => 6.IN0
+S => 6.IN1
+S => 7.IN1
+B => 8.IN0
+
+

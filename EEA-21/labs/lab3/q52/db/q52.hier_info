@@ -1,0 +1,13 @@
+|q52
+Y1imenos1 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+Y1i => inst6.IN0
+Y1i => inst4.IN0
+Y3i => inst2.IN0
+Y3i => inst7.IN0
+Ai => inst.IN1
+Ai => inst5.IN0
+Bi => inst3.IN0
+Bi => inst1.IN1
+Y3imenos1 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+

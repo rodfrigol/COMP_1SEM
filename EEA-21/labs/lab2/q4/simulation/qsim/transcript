@@ -1,0 +1,33 @@
+# do q4.do 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module q4
+# 
+# Top level modules:
+# 	q4
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module q4_vlg_sample_tst
+# -- Compiling module q4_vlg_check_tst
+# -- Compiling module q4_vlg_vec_tst
+# 
+# Top level modules:
+# 	q4_vlg_vec_tst
+# vsim -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.q4_vlg_vec_tst 
+# Loading work.q4_vlg_vec_tst
+# Loading work.q4
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading work.q4_vlg_sample_tst
+# Loading work.q4_vlg_check_tst
+# ERROR! Vector Mismatch for output port A :: @time = 10000000.000 ps
+#      Expected value = 0
+#      Real value = 1
+# ERROR! Vector Mismatch for output port Y0 :: @time = 15000000.000 ps
+#      Expected value = 0
+#      Real value = 1
+# ERROR! Vector Mismatch for output port Y1 :: @time = 25000000.000 ps
+#      Expected value = 0
+#      Real value = 1
+#           3 mismatched vectors : Simulation failed !
+# ** Note: $finish    : q4.vt(211)
+#    Time: 80 us  Iteration: 0  Instance: /q4_vlg_vec_tst/tb_out

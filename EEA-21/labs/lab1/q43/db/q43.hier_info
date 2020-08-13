@@ -1,0 +1,47 @@
+|Block1
+F <= 81mux:inst.Y
+A => 81mux:inst.C
+C => 81mux:inst.D1
+C => 81mux:inst.A
+D => 81mux:inst.D5
+D => ins.IN0
+D => 81mux:inst.D2
+D => 81mux:inst.D3
+D => 81mux:inst.D6
+B => 81mux:inst.B
+
+
+|Block1|81mux:inst
+d0 => ~NO_FANOUT~
+d1 => f81mux:sub.d1
+d2 => f81mux:sub.d2
+d3 => f81mux:sub.d3
+d4 => f81mux:sub.d4
+d5 => f81mux:sub.d5
+d6 => f81mux:sub.d6
+d7 => ~NO_FANOUT~
+a => f81mux:sub.a
+b => f81mux:sub.b
+c => f81mux:sub.c
+gn => ~NO_FANOUT~
+wn <= f81mux:sub.wn
+y <= f81mux:sub.y
+
+
+|Block1|81mux:inst|f81mux:sub
+WN <= 85.DB_MAX_OUTPUT_PORT_TYPE
+D0 => 59.IN0
+A => 19.IN0
+D1 => 60.IN0
+B => 17.IN0
+D2 => 61.IN0
+D3 => 62.IN0
+C => 16.IN0
+D4 => 63.IN0
+D5 => 64.IN0
+D6 => 65.IN0
+D7 => 66.IN0
+GN => 13.IN0
+y <= 82.DB_MAX_OUTPUT_PORT_TYPE
+
+

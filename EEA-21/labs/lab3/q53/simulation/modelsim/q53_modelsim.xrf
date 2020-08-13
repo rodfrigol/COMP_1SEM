@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/rodri/Desktop/EEA-21/labs/lab3/q53/q53.bdf
+source_file = 1, C:/Users/rodri/Desktop/EEA-21/labs/lab3/q53/Waveform.vwf
+source_file = 1, C:/Users/rodri/Desktop/EEA-21/labs/lab3/q53/db/q53.cbx.xml
+design_name = q53
+instance = comp, \Si~output , Si~output, q53, 1
+instance = comp, \Ei~output , Ei~output, q53, 1
+instance = comp, \Eimenos1~input , Eimenos1~input, q53, 1
+instance = comp, \Ai~input , Ai~input, q53, 1
+instance = comp, \Bi~input , Bi~input, q53, 1
+instance = comp, \inst7~0 , inst7~0, q53, 1

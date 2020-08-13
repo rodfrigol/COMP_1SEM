@@ -1,0 +1,595 @@
+$comment
+	File created using the following command:
+		vcd file q52.msim.vcd -direction
+$end
+$date
+	Tue Jul 21 20:25:28 2020
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module q52_vlg_vec_tst $end
+$var reg 1 ! CLK $end
+$var reg 1 " d1 $end
+$var reg 1 # d2 $end
+$var reg 1 $ d3 $end
+$var reg 1 % d4 $end
+$var reg 1 & dser $end
+$var reg 1 ' Ep $end
+$var reg 1 ( R $end
+$var wire 1 ) Q1 $end
+$var wire 1 * Q2 $end
+$var wire 1 + Q3 $end
+$var wire 1 , Q4 $end
+$var wire 1 - sampler $end
+$scope module i1 $end
+$var wire 1 . gnd $end
+$var wire 1 / vcc $end
+$var wire 1 0 unknown $end
+$var tri1 1 1 devclrn $end
+$var tri1 1 2 devpor $end
+$var tri1 1 3 devoe $end
+$var wire 1 4 d2~input_o $end
+$var wire 1 5 dser~input_o $end
+$var wire 1 6 CLK~input_o $end
+$var wire 1 7 CLK~inputclkctrl_outclk $end
+$var wire 1 8 Q1~output_o $end
+$var wire 1 9 Q2~output_o $end
+$var wire 1 : Q3~output_o $end
+$var wire 1 ; Q4~output_o $end
+$var wire 1 < d1~input_o $end
+$var wire 1 = Ep~input_o $end
+$var wire 1 > Ep~inputclkctrl_outclk $end
+$var wire 1 ? inst|2~1_combout $end
+$var wire 1 @ R~input_o $end
+$var wire 1 A inst3|2~1_combout $end
+$var wire 1 B inst3|2~3_combout $end
+$var wire 1 C inst3|2~_emulated_q $end
+$var wire 1 D inst3|2~2_combout $end
+$var wire 1 E inst|2~3_combout $end
+$var wire 1 F inst|2~_emulated_q $end
+$var wire 1 G inst|2~2_combout $end
+$var wire 1 H d3~input_o $end
+$var wire 1 I inst2|2~1_combout $end
+$var wire 1 J d4~input_o $end
+$var wire 1 K inst1|2~1_combout $end
+$var wire 1 L inst1|2~3_combout $end
+$var wire 1 M inst1|2~_emulated_q $end
+$var wire 1 N inst1|2~2_combout $end
+$var wire 1 O inst2|2~3_combout $end
+$var wire 1 P inst2|2~_emulated_q $end
+$var wire 1 Q inst2|2~2_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+0&
+1'
+0(
+0)
+0*
+0+
+0,
+x-
+0.
+1/
+x0
+11
+12
+13
+04
+05
+06
+07
+08
+09
+0:
+0;
+0<
+1=
+1>
+0?
+0@
+0A
+0B
+0C
+0D
+0E
+0F
+0G
+0H
+0I
+0J
+0K
+0L
+0M
+0N
+0O
+0P
+0Q
+$end
+#20000
+1!
+16
+17
+0-
+#40000
+0'
+1&
+0!
+0=
+15
+06
+0>
+07
+1-
+1E
+#60000
+1!
+16
+17
+0-
+1F
+1G
+1B
+18
+1)
+#80000
+0!
+06
+07
+1-
+#100000
+1!
+16
+17
+0-
+1C
+1D
+1O
+19
+1*
+#120000
+0&
+0!
+05
+06
+07
+1-
+0E
+#140000
+1!
+16
+17
+0-
+1P
+0F
+1Q
+0G
+1L
+0B
+1:
+08
+1+
+0)
+#160000
+1&
+0!
+15
+06
+07
+1-
+1E
+#180000
+1!
+16
+17
+0-
+1M
+1F
+0C
+1N
+1G
+0D
+0O
+1B
+1;
+18
+09
+1,
+1)
+0*
+#200000
+1'
+0!
+1=
+06
+1>
+07
+1-
+0Q
+0N
+0G
+0L
+0B
+0:
+0;
+08
+0+
+0,
+0)
+0F
+0M
+0P
+#220000
+1!
+16
+17
+0-
+#240000
+0'
+0!
+0=
+06
+0>
+07
+1-
+#260000
+1!
+16
+17
+0-
+1F
+1G
+1B
+18
+1)
+#280000
+0&
+0!
+05
+06
+07
+1-
+0E
+#300000
+1!
+16
+17
+0-
+0F
+1C
+0G
+1D
+0B
+1O
+08
+19
+0)
+1*
+#320000
+0!
+06
+07
+1-
+#340000
+1!
+16
+17
+0-
+1P
+0C
+1Q
+0D
+1L
+0O
+1:
+09
+1+
+0*
+#360000
+0!
+06
+07
+1-
+#380000
+1!
+16
+17
+0-
+0P
+1M
+0Q
+1N
+0L
+0:
+1;
+0+
+1,
+#400000
+1"
+1#
+1$
+1%
+1&
+0!
+1<
+14
+1H
+1J
+15
+06
+07
+1-
+1E
+#420000
+1!
+16
+17
+0-
+0M
+1F
+0N
+1G
+1B
+0;
+18
+0,
+1)
+#440000
+0&
+0!
+05
+06
+07
+1-
+0E
+#460000
+1!
+16
+17
+0-
+0F
+1C
+0G
+1D
+0B
+1O
+08
+19
+0)
+1*
+#472000
+1'
+1=
+1>
+1-
+1K
+1I
+1A
+1?
+1Q
+1N
+1G
+0O
+1E
+1:
+1;
+18
+1+
+1,
+1)
+0C
+#480000
+0!
+06
+07
+0-
+#496000
+0'
+0=
+0>
+1-
+#500000
+1!
+16
+17
+0-
+1F
+0G
+1B
+08
+0)
+#520000
+1(
+0!
+1@
+06
+07
+1-
+1L
+0E
+0B
+#540000
+1!
+16
+17
+0-
+1M
+0F
+0N
+1G
+1O
+0;
+18
+0,
+1)
+#560000
+1&
+0!
+15
+06
+07
+1-
+0L
+#580000
+1!
+16
+17
+0-
+1P
+0M
+0Q
+1N
+1B
+0O
+0:
+1;
+0+
+1,
+#600000
+0!
+06
+07
+1-
+#620000
+1!
+16
+17
+0-
+0P
+1C
+1Q
+0D
+0B
+1E
+1:
+09
+1+
+0*
+#640000
+0"
+0#
+0&
+0!
+0<
+04
+05
+06
+07
+1-
+1L
+#648000
+1'
+1=
+1>
+0-
+0A
+0?
+0G
+1B
+0E
+08
+0)
+0C
+#660000
+1!
+16
+17
+1-
+#672000
+0'
+0=
+0>
+0-
+#680000
+0!
+06
+07
+1-
+#700000
+1!
+16
+17
+0-
+1M
+1C
+0N
+1D
+1O
+1E
+0;
+19
+0,
+1*
+#720000
+0!
+06
+07
+1-
+#740000
+1!
+16
+17
+0-
+1P
+1F
+0Q
+1G
+0B
+0:
+18
+0+
+1)
+#760000
+1&
+0!
+15
+06
+07
+1-
+0L
+#780000
+1!
+16
+17
+0-
+0M
+0C
+1N
+0D
+0O
+0E
+1;
+09
+1,
+0*
+#800000
+0!
+06
+07
+1-
+#820000
+1!
+16
+17
+0-
+0P
+0F
+1Q
+0G
+1B
+1:
+08
+1+
+0)
+#840000
